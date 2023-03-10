@@ -1,0 +1,22 @@
+1.Write a Python function that takes a string as input and returns the
+string reversed.
+2.Write a Python program that prompts the user to enter two
+numbers and prints out their sum, difference, product, and
+quotient.
+3.Write a Python function that takes a list of integers as input and
+returns the largest number in the list.
+4.Write a Python program that prompts the user to enter their age
+and prints out a message saying whether they are old enough to
+vote (age 18 and above) or not.
+5.Write a Python function that takes a list of strings as input and
+returns the string with the most characters.
+6.Write a Python program that prompts the user to enter a number
+and prints out a message saying whether the number is positive,
+negative, or zero.7.Write a Python function that takes a string as input and returns the
+number of vowels in the string.
+8.Write a Python program that prompts the user to enter a sentence
+and prints out the sentence in all uppercase letters.
+9.Write a Python function that takes a list of integers as input and
+returns a new list containing only the even numbers.
+10. Write a Python program that reads in a list of strings and prints
+out the strings in alphabetical order.
