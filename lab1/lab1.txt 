@@ -1,22 +1,96 @@
-1.Write a Python function that takes a string as input and returns the
+1.Write afunction that takes a string as input and returns the
 string reversed.
-2.Write a Python program that prompts the user to enter two
+2.Write aprogram that prompts the user to enter two
 numbers and prints out their sum, difference, product, and
 quotient.
-3.Write a Python function that takes a list of integers as input and
+3.Write afunction that takes a list of integers as input and
 returns the largest number in the list.
-4.Write a Python program that prompts the user to enter their age
+4.Write aprogram that prompts the user to enter their age
 and prints out a message saying whether they are old enough to
 vote (age 18 and above) or not.
-5.Write a Python function that takes a list of strings as input and
+5.Write afunction that takes a list of strings as input and
 returns the string with the most characters.
-6.Write a Python program that prompts the user to enter a number
+6.Write aprogram that prompts the user to enter a number
 and prints out a message saying whether the number is positive,
-negative, or zero.7.Write a Python function that takes a string as input and returns the
+negative, or zero.7.Write afunction that takes a string as input and returns the
 number of vowels in the string.
-8.Write a Python program that prompts the user to enter a sentence
+8.Write aprogram that prompts the user to enter a sentence
 and prints out the sentence in all uppercase letters.
-9.Write a Python function that takes a list of integers as input and
+9.Write afunction that takes a list of integers as input and
 returns a new list containing only the even numbers.
-10. Write a Python program that reads in a list of strings and prints
+10. Write aprogram that reads in a list of strings and prints
 out the strings in alphabetical order.
+
+Here's thefunction that takes a string as input and returns the string reversed:
+
+
+def reverse_string(string):
+return string[::-1]
+
+
+Here's theprogram that prompts the user to enter two numbers and prints out their sum, difference, product, and quotient:
+
+
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+
+print("Sum: ", num1 + num2)
+print("Difference: ", num1 - num2)
+print("Product: ", num1 * num2)
+print("Quotient: ", num1 / num2)
+Here's thefunction that takes a list of integers as input and returns the largest number in the list:
+
+
+def find_largest(lst):
+return max(lst)
+Here's theprogram that prompts the user to enter their age and prints out a message saying whether they are old enough to vote (age 18 and above) or not:
+
+
+age = int(input("Enter your age: "))
+
+if age >= 18:
+print("You are old enough to vote!")
+else:
+print("You are not old enough to vote yet.")
+Here's thefunction that takes a list of strings as input and returns the string with the most characters:
+
+
+def find_longest_string(lst):
+return max(lst, key=len)
+Here's theprogram that prompts the user to enter a number and prints out a message saying whether the number is positive, negative, or zero:
+
+
+num = float(input("Enter a number: "))
+
+if num > 0:
+print("Positive")
+elif num < 0:
+print("Negative")
+else:
+print("Zero")
+Here's thefunction that takes a string as input and returns the number of vowels in the string:
+
+
+def count_vowels(string):
+vowels = "aeiouAEIOU"
+count = 0
+for char in string:
+if char in vowels:
+count += 1
+return count
+Here's theprogram that prompts the user to enter a sentence and prints out the sentence in all uppercase letters:
+
+
+sentence = input("Enter a sentence: ")
+print(sentence.upper())
+Here's thefunction that takes a list of integers as input and returns a new list containing only the even numbers:
+
+
+def find_even_numbers(lst):
+return [num for num in lst if num % 2 == 0]
+Here's theprogram that reads in a list of strings and prints out the strings in alphabetical order:
+
+
+strings = input("Enter a list of strings separated by spaces: ").split()
+strings.sort()
+print(strings)
